@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up","Hola"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Goodbye!", "Sad to see you go...", "Talk to you later"],
+         "context_set": ""
+        },
+        {"tag": "q1",
+         "patterns": ["overall show?", "top show?", "what is the best show of all-time?", "what is the best show of ever?"],
+         "responses": ["The best show on Netflix is "],
+         "context_set": ""
+        },
+        {"tag": "q2",
+         "patterns": ["show released before 2000?","from before 2000?", "before 2000?", "what is the show released before 2000?"],
+         "responses": ["The best show on Netflix that was released before 2000 is ", " and it was released in "],
+         "context_set": ""
+        },
+        {"tag": "q3",
+         "patterns": ["over 10 seasons?","10 seasons?", "most seasons?", "what is the show with over 10 seasons?"],
+         "responses": ["The best show on Netflix with over ten seasons is ", " and it had ", " seasons."],
+         "context_set": ""
+        },
+        {"tag": "q4",
+         "patterns": ["over an hour?","over 60 minutes?", "long duration?", "what is the show with episodes over an hour long?"],
+         "responses": ["The best show on Netflix with episodes over an hour is ", " and each episode is ", " minutes."],
+         "context_set": ""
+        },
+        {"tag": "q5",
+         "patterns": ["five scifi shows?","five scifi?", "what are the five scifi shows?"],
+         "responses": ["The five best scifi shows are "],
+         "context_set": ""
+        },
+        {"tag": "q6",
+         "patterns": ["movie from 2012?","movie from ten years ago?","movie from a decade ago?", "what is the movie from 2012?"],
+         "responses": ["The best movie released in 2012 is "],
+         "context_set": ""
+        },
+        {"tag": "q7",
+         "patterns": ["movie from India?","produced in India?","Indian movie?","what is the movie produced in India?"],
+         "responses": ["The best Netflix movie produced in India is "],
+         "context_set": ""
+        },
+        {"tag": "q8",
+         "patterns": ["shows over 9.0?","at least 9.0?", "How many shows are rated at least a 9.0?"],
+         "responses": ["There are ", " shows on Netflix rated at least 9.0."],
+         "context_set": ""
+        },
+        {"tag": "q9",
+         "patterns": ["movie genre", "genre of top movie", "What genre is the movie?"],
+         "responses": ["The best movie on Netflix is ", ", and it is a "],
+         "context_set": ""
+        },
+        {"tag": "q10",
+         "patterns": ["movies over 8.5?", "at least 8.5?","rated 8.5","Which movies are rated at least an 8.5?"],
+         "responses": ["The following Netflix movies are rated at least 8.5:"],
+         "context_set": ""
+        }
+   ]
+}
